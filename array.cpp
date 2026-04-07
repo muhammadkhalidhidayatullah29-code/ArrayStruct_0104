@@ -26,4 +26,9 @@ int main()
     cout << "data ketiga: " << datamu[2] << endl;
     cout << "data keempat: " << datamu[3] << endl;
     cout << "data kelima: " << datamu[4] << endl;
-}
+
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Isikan data ke-" << (i + 1) << " : ";
+        cin >> datamu[i];
+    }
