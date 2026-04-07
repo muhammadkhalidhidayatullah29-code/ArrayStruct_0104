@@ -20,6 +20,7 @@ int main()
     cin >> datamu[3];
     cout << "isikan data kelima: ";
     cin >> datamu[4];
+    cout << endl;
 
     cout << "data pertama: " << datamu[0] << endl;
     cout << "data kedua: " << datamu[1] << endl;
@@ -27,12 +28,13 @@ int main()
     cout << "data keempat: " << datamu[3] << endl;
     cout << "data kelima: " << datamu[4] << endl;
 
+    cout << "Input Array menggunakan for: " << endl;
     for (int i = 0; i <= 4; i++)
     {
         cout << "Isikan data ke-" << (i + 1) << " : ";
         cin >> datamu[i];
     }
-    cout << "Tampil data array menggunakan for: " << endl;
+    cout << "Tampilkan data array menggunakan for: " << endl;
 
     for (int i = 0; i <= 4; i++)
     {
